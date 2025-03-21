@@ -3,5 +3,9 @@ package main
 import "fastclick/view"
 
 func main() {
-	view.InitGUI()
+	// starting app
+	view.InitSysTrayApp()
+
+	// listen to key events to start clicking on a goroutine
+
 }
