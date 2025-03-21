@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "fastclick/view"
 
 func main() {
-	fmt.Println("Init")
+	view.InitGUI()
 }
